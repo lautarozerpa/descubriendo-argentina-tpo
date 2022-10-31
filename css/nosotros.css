@@ -1,0 +1,56 @@
+.imagen{
+  background-image:url("../Imagenes/Centro/3-senderismo.jpg");
+}
+
+.main-nosotros{
+  background-color: #EEE;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-nosotros{
+  width: 90vw;
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  margin-top: 5vh;
+}
+
+.texto-nosotros i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2vw;
+}
+
+.quienes-somos{
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  border: solid 1px #bdbdbd;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.quienes-somos p{
+  margin-top: 5vh;
+  padding: 2rem;
+}
+
+.quienes-somos img{
+  max-width: 90vw;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.quienes-somos iframe{
+  width: 90vw;
+  padding: 2rem 2rem 2rem 2rem;
+  height: 80vh;
+  border: 0;
+}

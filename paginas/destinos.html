@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Destinos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="../Imagenes/viaje-y-turismo.png">
+  <!-- Bootstrap CSS v5.2.1 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Google Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Iconos Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/destinos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <header class="imagen">
+    <div class="nav-bar" id="myNav-bar">
+          <ul class="lista_navegacion">
+              <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars fa-xl"></i>
+              </a></li>
+              <li><a href="../index.html" class="links_navegacion active">Inicio</a></li>
+              <li><a href="../paginas/destinos.html" class="links_navegacion">Destinos</a></li>
+              <li><span class="material-symbols-outlined">explore</span></li>
+              <li><a href="../paginas/nosotros.html" class="links_navegacion">Nosotros</a></li>
+              <li><a href="../paginas/contacto.html" class="links_navegacion">Contacto</a></li>
+              <li><a class="icon-hidden">
+                <i class="fa-solid fa-bars"></i>
+              </a></li>
+          </ul>
+    </div>
+    <div class="desc_argentina_texto">
+      <div class="texto">
+        <h1 class="descubriendo_argentina">Descubriendo <span>Argentina</span></h1>
+        <p>"No es viajar, es vivir Argentina"</p>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main-destinos">
+    <div class="separador">
+<!------------Buenos aires----------->
+        <div class="centrador reverse">
+            <div id="buenos-aires" class="contenedor-buenos-aires">
+                <div class="galeria-de-imagenes-BuenosAires">
+                    <h3 class="subtitulo-galeria-de-imagenes">El Obelisco</h3>
+                    <img  src="../Imagenes/Buenos-Aires/obelisco.jpg">
+                </div>
+                <div class="galeria-de-imagenes-BuenosAires">
+                    <h3 class="subtitulo-galeria-de-imagenes">Caminito</h3>
+                    <img src="../Imagenes/Buenos-Aires/barrio-boca.jpg">
+                </div>
+                <div class="galeria-de-imagenes-BuenosAires">
+                    <h3 class="subtitulo-galeria-de-imagenes">Teatro El Ateneo</h3>
+                    <img src="../Imagenes/Buenos-Aires/planetario.jpg">
+                </div>
+                <div class="galeria-de-imagenes-BuenosAires">
+                    <h3 class="subtitulo-galeria-de-imagenes">Los Bosques de Palermo</h3>
+                    <img  src="../Imagenes/Buenos-Aires/jardin-japones2.jpg">
+                </div>
+                <div class="galeria-de-imagenes-BuenosAires">
+                    <h3 class="subtitulo-galeria-de-imagenes">Caballito</h3>
+                    <img  src="../Imagenes/Buenos-Aires/floralis.jpg">
+                </div>
+                <div class="galeria-de-imagenes-BuenosAires">
+                    <h3 class="subtitulo-galeria-de-imagenes">El Planetario</h3>
+                    <img  src="../Imagenes/Buenos-Aires/ciudad.jpg">
+                </div>
+                <button class="boton izquierdo" onclick="cambiarImagenBuenosAires(-1)">&#10094;</button>
+                <button class="boton derecho" onclick="cambiarImagenBuenosAires(1)">&#10095;</button>
+                <div class="contenedor-miniaturas">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaBuenosAires(1)" src="../Imagenes/Buenos-Aires/obelisco.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaBuenosAires(2)" src="../Imagenes/Buenos-Aires/barrio-boca.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaBuenosAires(3)" src="../Imagenes/Buenos-Aires/planetario.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaBuenosAires(4)"src="../Imagenes/Buenos-Aires/jardin-japones2.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaBuenosAires(5)" src="../Imagenes/Buenos-Aires/floralis.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaBuenosAires(6)"src="../Imagenes/Buenos-Aires/ciudad.jpg">
+              </div>
+            </div>
+            <div class="textos">
+              <h2 class="titulo-galeria-de-imagenes">Buenos Aires</h2>
+              <p>Es el destino más visitado de la Argentina por ser su capital y es el puente a otros destinos de este hermoso país. “Descubriendo Argentina” te invita a conocer su cultura, sus barrios, sus monumentos, su arquitectura y su adrenalina típica de una gran ciudad te invita a recorrerla en cualquier época del año</p>
+              <button class="boton-link"><a target="_blank" href="https://turismo.buenosaires.gob.ar/es">Para saber mas click aqui</a></button>
+            </div>
+        </div>
+
+        <hr>
+<!------------Patagonia----------->
+
+        <div class="centrador">
+          <div class="textos">
+            <h2 class="titulo-galeria-de-imagenes">Patagonia</h2>
+            <p>Sus paisajes majestuosos, sus montañas, sus mares sus glaciares y sus bosques. Toda la aventura de conocer estos magníficos paisajes la podes encontrar con “Descubriendo Argentina”.</p>
+            <button class="boton-link"><a target="_blank" href="https://patagonia.gob.ar/">Para saber mas click aqui</a></button>
+          </div>
+            <div id="patagonia" class="contenedor-patagonia">
+                <div class="galeria-de-imagenes-patagonia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Campo de Tulipanes en Chubut</h3>
+                    <img  src="../Imagenes/Patagonia/1-chubut.jpg">
+                </div>
+                <div class="galeria-de-imagenes-patagonia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Glaciar Perito Moreno</h3>
+                    <img src="../Imagenes/Patagonia/2-Glaciar-Perito-Moreno.jpg">
+                </div>
+                <div class="galeria-de-imagenes-patagonia">
+                    <h3 class="subtitulo-galeria-de-imagenes">El Chalten</h3>
+                    <img src="../Imagenes/Patagonia/3-el-chalten.jpg">
+                </div>
+                <div class="galeria-de-imagenes-patagonia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Ushuaia</h3>
+                    <img  src="../Imagenes/Patagonia/4-Ushuaia.jpg">
+                </div>
+                <div class="galeria-de-imagenes-patagonia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Puerto Madryn</h3>
+                    <img  src="../Imagenes/Patagonia/5-puerto-madryn.jpg">
+                </div>
+                <div class="galeria-de-imagenes-patagonia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Bariloche</h3>
+                    <img  src="../Imagenes/Patagonia/6-Bariloche.jpg">
+                </div>
+
+                <button class="boton izquierdo" onclick="cambiarImagenPatagonia(-1)">&#10094;</button>
+                <button class="boton derecho" onclick="cambiarImagenPatagonia(1)">&#10095;</button>
+                <div class="contenedor-miniaturas">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaPatagonia(1)" src="../Imagenes/Patagonia/1-chubut.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaPatagonia(2)" src="../Imagenes/Patagonia/2-Glaciar-Perito-Moreno.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaPatagonia(3)" src="../Imagenes/Patagonia/3-el-chalten.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaPatagonia(4)"src="../Imagenes/Patagonia/4-Ushuaia.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaPatagonia(5)" src="../Imagenes/Patagonia/5-puerto-madryn.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaPatagonia(6)"src="../Imagenes/Patagonia/6-Bariloche.jpg">
+              </div>
+            </div>
+        </div>
+
+        <hr>
+
+<!------------Region de Cuyo----------->
+
+        <div class="centrador reverse">
+            <div id="cuyo" class="contenedor-cuyo">
+                <div class="galeria-de-imagenes-cuyo">
+                    <h3 class="subtitulo-galeria-de-imagenes">La ruta del vino</h3>
+                    <img  src="../Imagenes/Cuyo/valle-de-la-luna.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cuyo">
+                    <h3 class="subtitulo-galeria-de-imagenes">Cerro Aconcagua</h3>
+                    <img src="../Imagenes/Cuyo/2-cerro-aconcagua.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cuyo">
+                    <h3 class="subtitulo-galeria-de-imagenes">El cañón del Atuel</h3>
+                    <img src="../Imagenes/Cuyo/3-canon-del-atuel.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cuyo">
+                    <h3 class="subtitulo-galeria-de-imagenes">Astroturismo en el Valle de Uco</h3>
+                    <img  src="../Imagenes/Cuyo/4-Astroturismo-Valle-de-Uco.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cuyo">
+                    <h3 class="subtitulo-galeria-de-imagenes">Valle de la Luna</h3>
+                    <img  src="../Imagenes/Cuyo/5-Valle-de-la-luna-san-juan.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cuyo">
+                    <h3 class="subtitulo-galeria-de-imagenes">Rafting en Mendoza</h3>
+                    <img  src="../Imagenes/Cuyo/6-rafting-mendoza.jpg">
+                </div>
+
+                <button class="boton izquierdo" onclick="cambiarImagenCuyo(-1)">&#10094;</button>
+                <button class="boton derecho" onclick="cambiarImagenCuyo(1)">&#10095;</button>
+                <div class="contenedor-miniaturas">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCuyo(1)" src="../Imagenes/Cuyo/valle-de-la-luna.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCuyo(2)" src="../Imagenes/Cuyo/2-cerro-aconcagua.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCuyo(3)" src="../Imagenes/Cuyo/3-canon-del-atuel.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCuyo(4)"src="../Imagenes/Cuyo/4-Astroturismo-Valle-de-Uco.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCuyo(5)" src="../Imagenes/Cuyo/5-Valle-de-la-luna-san-juan.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCuyo(6)"src="../Imagenes/Cuyo/6-rafting-mendoza.jpg">
+                </div>
+            </div>
+            <div class="textos">
+              <h2 class="titulo-galeria-de-imagenes">Region de Cuyo</h2>
+              <p>Los grandes viñedos y montañas de Mendoza, el Valle de la Luna en San Juan, los paisajes increíbles del cañón de Atuel y mucho, mucho más con “Descubriendo Argentina”.</p>
+              <button class="boton-link"><a target="_blank" href="https://mendoza.tur.ar/">Para saber mas click aqui</a></button>
+            </div>
+        </div>
+
+        <hr>
+
+<!------------Region de Cordoba----------->
+
+        <div class="centrador">
+          <div class="textos">
+            <h2 class="titulo-galeria-de-imagenes">Centro</h2>
+            <p>“Descubriendo Argentina” te invita a uno de nuestros destinos preferidos por los Argentinos: Las sierras de Córdoba y de San Luis. Carlos Paz, Merlo, La Cumbrecita, La Falda, son solo algunos de los muchos destinos que te invitamos a descubrir.</p>
+            <button class="boton-link"><a target="_blank" href="https://www.cordobaturismo.gov.ar/">Para saber mas click aqui</a></button>
+          </div>
+            <div id="cordoba" class="contenedor-cordoba">
+                <div class="galeria-de-imagenes-cordoba">
+                    <h3 class="subtitulo-galeria-de-imagenes">La Falda</h3>
+                    <img  src="../Imagenes/Centro/1-LA FALDA.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cordoba">
+                    <h3 class="subtitulo-galeria-de-imagenes">La Falda</h3>
+                    <img src="../Imagenes/Centro/2-la-falda.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cordoba">
+                    <h3 class="subtitulo-galeria-de-imagenes">Senderismo</h3>
+                    <img src="../Imagenes/Centro/3-senderismo.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cordoba">
+                    <h3 class="subtitulo-galeria-de-imagenes">Cabalgatas</h3>
+                    <img  src="../Imagenes/Centro/4-aventura.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cordoba">
+                    <h3 class="subtitulo-galeria-de-imagenes">Oktober Fest en Villa General Belgrano</h3>
+                    <img  src="../Imagenes/Centro/5-villa-general-belgrano.jpg">
+                </div>
+                <div class="galeria-de-imagenes-cordoba">
+                    <h3 class="subtitulo-galeria-de-imagenes">Carlos Paz</h3>
+                    <img  src="../Imagenes/Centro/6-carlos-paz.jpg">
+                </div>
+
+                <button class="boton izquierdo" onclick="cambiarImagenCordoba(-1)">&#10094;</button>
+                <button class="boton derecho" onclick="cambiarImagenCordoba(1)">&#10095;</button>
+                <div class="contenedor-miniaturas">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCordoba(1)" src="../Imagenes/Centro/1-LA FALDA.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCordoba(2)" src="../Imagenes/Centro/2-la-falda.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCordoba(3)" src="../Imagenes/Centro/3-senderismo.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCordoba(4)"src="../Imagenes/Centro/4-aventura.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCordoba(5)" src="../Imagenes/Centro/5-villa-general-belgrano.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaCordoba(6)"src="../Imagenes/Centro/6-carlos-paz.jpg">
+              </div>
+            </div>
+        </div>
+        <hr>
+<!------------Region del NOA----------->
+
+        <div class="centrador reverse">
+            <div id="noa" class="contenedor-noa">
+                <div class="galeria-de-imagenes-noa">
+                    <h3 class="subtitulo-galeria-de-imagenes">El Cerro de los 7 colores</h3>
+                    <img  src="../Imagenes/NOA/1-cerro-de-los-7-colores.jpg">
+                </div>
+                <div class="galeria-de-imagenes-noa">
+                    <h3 class="subtitulo-galeria-de-imagenes">Salinas Grandes</h3>
+                    <img src="../Imagenes/NOA/2-salinas-grandes.jpg">
+                </div>
+                <div class="galeria-de-imagenes-noa">
+                    <h3 class="subtitulo-galeria-de-imagenes">Tren de las nubes</h3>
+                    <img src="../Imagenes/NOA/3-tren-e-las-nubes.jpg">
+                </div>
+                <div class="galeria-de-imagenes-noa">
+                    <h3 class="subtitulo-galeria-de-imagenes">Villa Termal de Reyes</h3>
+                    <img  src="../Imagenes/NOA/4-Villa-termal-de-reyes.jpg">
+                </div>
+                <div class="galeria-de-imagenes-noa">
+                    <h3 class="subtitulo-galeria-de-imagenes">Valles Calchaquies</h3>
+                    <img  src="../Imagenes/NOA/5-valles-calchaquies.jpg">
+                </div>
+                <div class="galeria-de-imagenes-noa">
+                    <h3 class="subtitulo-galeria-de-imagenes">La ruta 40</h3>
+                    <img  src="../Imagenes/NOA/6-ruta-40.jpg">
+                </div>
+
+                <button class="boton izquierdo" onclick="cambiarImagenNoa(-1)">&#10094;</button>
+                <button class="boton derecho" onclick="cambiarImagenNoa(1)">&#10095;</button>
+                <div class="contenedor-miniaturas">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaNoa(1)" src="../Imagenes/NOA/1-cerro-de-los-7-colores.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaNoa(2)" src="../Imagenes/NOA/2-salinas-grandes.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaNoa(3)" src="../Imagenes/NOA/3-tren-e-las-nubes.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaNoa(4)"src="../Imagenes/NOA/4-Villa-termal-de-reyes.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaNoa(5)" src="../Imagenes/NOA/5-valles-calchaquies.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaNoa(6)"src="../Imagenes/NOA/6-ruta-40.jpg">
+              </div>
+            </div>
+            <div class="textos">
+              <h2 class="titulo-galeria-de-imagenes">Noroeste</h2>
+              <p>Uno de los destinos mas alucinantes de la Argentina te brinda “Descubriendo Argentina”. Si te gusta la aventura, conocer costumbres de los pueblos nativos y tener experiencias inolvidables ten invitamos a conocer El Tren de las Nubes, el Cerro de los Siete Colores y el Carnaval de Jujuy, entre otros destinos.</p>
+              <button class="boton-link"><a target="_blank" href="http://turismosalta.gov.ar/home">Para saber mas click aqui</a></button>
+            </div>
+        </div>
+
+        <hr>
+
+<!------------Region Mesopotamica----------->
+
+        <div class="centrador">
+          <div class="textos">
+            <h2 class="titulo-galeria-de-imagenes">Región Mesopotámica</h2>
+            <p>Si buscas lindas temperaturas todo el año, todos los verdes y un intimo contacto con la naturaleza, “Descubriendo Argentina” posee las excursiones a los destinos mas exóticos del país. Las Cataratas del Iguazú (una de las Siete Maravillas del Mundo Natural), los salvajes Esteros del Iberá, las Termas Villa Elisa, o si querés subir aún más la temperatura… Los carnavales de Gualeguaychú.</p>
+            <button class="boton-link"><a target="_blank" href="https://corrientes.tur.ar/">Para saber mas click aqui</a></button>
+          </div>
+            <div id="mesopotamia" class="contenedor-mesopotamia">
+                <div class="galeria-de-imagenes-mesopotamia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Las Cataratas del Iguazu</h3>
+                    <img  src="../Imagenes/Mesopotamia/1-Las-Cataratas-del-Iguazu.jpg">
+                </div>
+                <div class="galeria-de-imagenes-mesopotamia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Corrientes</h3>
+                    <img src="../Imagenes/Mesopotamia/2-corrientes.jpg">
+                </div>
+                <div class="galeria-de-imagenes-mesopotamia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Las Termas de Villa Elisa</h3>
+                    <img src="../Imagenes/Mesopotamia/3-termas-villa-elisa.jpg">
+                </div>
+                <div class="galeria-de-imagenes-mesopotamia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Los Esteros del Ibera</h3>
+                    <img  src="../Imagenes/Mesopotamia/4-esteros-del-ibera.jpg">
+                </div>
+                <div class="galeria-de-imagenes-mesopotamia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Ruinas de San Ignacio</h3>
+                    <img  src="../Imagenes/Mesopotamia/5-ruinas-de-san-ignacio.png">
+                </div>
+                <div class="galeria-de-imagenes-mesopotamia">
+                    <h3 class="subtitulo-galeria-de-imagenes">Gualeguaychú</h3>
+                    <img  src="../Imagenes/Mesopotamia/6-carnavales-de-gualeguaychu.jpg">
+                </div>
+
+                <button class="boton izquierdo" onclick="cambiarImagenMesopotamia(-1)">&#10094;</button>
+                <button class="boton derecho" onclick="cambiarImagenMesopotamia(1)">&#10095;</button>
+                <div class="contenedor-miniaturas">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaMesopotamia(1)" src="../Imagenes/Mesopotamia/1-Las-Cataratas-del-Iguazu.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaMesopotamia(2)" src="../Imagenes/Mesopotamia/2-corrientes.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaMesopotamia(3)" src="../Imagenes/Mesopotamia/3-termas-villa-elisa.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaMesopotamia(4)"src="../Imagenes/Mesopotamia/4-esteros-del-ibera.jpg">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaMesopotamia(5)" src="../Imagenes/Mesopotamia/5-ruinas-de-san-ignacio.png">
+                  <img class="imagenes-miniaturas" onclick="miniaturaActivaMesopotamia(6)"src="../Imagenes/Mesopotamia/6-carnavales-de-gualeguaychu.jpg">
+              </div>
+            </div>   
+        </div>
+    </div>
+    <div class="clima">
+      <h1>Consulta el clima de alguna ciudad:</h1>
+      <div class="search-form">
+        <form id="search-form">
+          <div class="searchbox">
+            <input type="text" autocomplete="off" placeholder="Buscar ciudad..." class="search" id="searchbox" />
+          </div>
+        </form>
+      </div>
+      <div class="weather-card" id="card">
+        <div class="city" id="city">Lima, PE</div>
+        <hr>
+        <div class="date" id="date">10/14/2020</div>
+        <div class="temperature">
+          <img src="images/temp-mid.png" class="temp-img" id="temp-img" />
+          <div class="temp" id="temp">14c</div>
+        </div>
+        <div class="weather" id="weather">Sol</div>
+        <hr>
+        <div class="range" id="range">12c / 18c</div>
+      </div>
+  </div>
+
+</main>
+  <footer>
+    <ul>
+      <li><a class=miniaturas id="twitter" href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a class=miniaturas id="whatsapp" href="https://api.whatsapp.com/send?phone=0123456789" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>  
+      <li><a class=miniaturas id="youtube" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>  
+      <li><a class=miniaturas id="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>  
+      <li><a class=miniaturas id="instagram" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a class=miniaturas id="pinterest" href="https://ar.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+      <li><a class=miniaturas id="linkedin" href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+    </ul>
+    <ul>
+      <li><a href="../index.html" class="links_footer">Inicio</a></li>
+      <li><a href="#" class="links_footer">Destinos</a></li>
+      <li><a href="../paginas/nosotros.html" class="links_footer">Nosotros</a></li>
+      <li><a href="../paginas/contacto.html" class="links_footer">Contacto</a></li>
+    </ul>
+</footer>
+
+<script src="https://kit.fontawesome.com/42194eea20.js" crossorigin="anonymous"></script>
+<script src="../java_script.js"></script>
+<script src="../js/animaciones.js"></script>
+<script src="../js/llamado-api.js"></script>
+</body>
+
+</html>
